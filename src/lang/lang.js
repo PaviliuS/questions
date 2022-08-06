@@ -1,0 +1,46 @@
+import React from "react";
+export const LangContext = React.createContext();
+
+export const ruLang = {
+    lang:'ru',
+    startCollection:'Пройти коллекцию',
+    collections:'Коллекции',
+    searchCollections:'Поиск коллекций',
+    addCollections:'Добавить коллекцию',
+    newCollection:'Новая коллекция',
+    endCollection:'Завершить коллекцию',
+    collection:'Коллекция',
+    questions:'Вопросы',
+    question:'Вопрос',
+    searchQuestions:'Поиск вопросов',
+    addQuestion:'Добавить вопрос',
+    answer:'Ответ',
+    toAnswer:'Ответить',
+    add:'Добавить',
+    search:'Поиск',
+    settings:'Настройки',
+    changeLang:'Поменять язык',
+    changeTheme:'Поменять тему',
+};
+
+export const enLang = {
+    lang:'en',
+    startCollection:'Start',
+    collections:'Collections',
+    searchCollections:'Search сollections',
+    addCollections:'Add collections',
+    newCollection:'New collection',
+    endCollection:'End collection',
+    collection:'Collection',
+    questions:'Questions',
+    question:'Question',
+    searchQuestions:'Search questions',
+    addQuestion:'Add question',
+    answer:'Answer',
+    toAnswer:'Answer',
+    add:'Add',
+    search:'Search',
+    settings:'Settings',
+    changeLang:'Change lang',
+    changeTheme:'Change theme',
+};
